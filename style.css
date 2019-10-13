@@ -1,0 +1,142 @@
+.flexContainer{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-color: #1d2124;
+}
+#p1{
+    height: 150px;
+    width: 150px;
+    background-color: #e0a800;
+    position: relative;
+}
+#p2{
+    height: 150px;
+    width: 150px;
+    background-color: #e0a800;
+    position: absolute;
+    top: 358px;
+
+}
+#p3{
+    height: 150px;
+    width: 150px;
+    background-color: #e0a800;
+    position: absolute;
+    left: 358px;
+}
+#p4{
+    height: 150px;
+    width: 150px;
+    background-color: #e0a800;
+    position: absolute;
+    top: 358px;
+    left: 358px;
+}
+.leg{
+    height: 30px;
+    width: 8px;
+    background-color: black;
+}
+.lights{
+    height: 50px;
+    width: 25px;
+    background-color: #1d2124;
+    border: 2px solid #5a6268;
+}
+#p1-sygnalize{
+    position: absolute;
+    left: 130px;
+    top: 55px;
+}
+#p1-sygnalize2{
+    position: absolute;
+    left: 120px;
+    top: 85px;
+}
+.red-Position{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: red;
+}
+.red-Disabled{
+    opacity: 0.1;
+}
+.red-Enabled{
+    opacity: 1;
+}
+.Other-Style-1{
+    position: absolute;
+    top: 34px;
+    left: 8px;
+}
+.yellow-Position{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: yellow;
+}
+.yellow-Disabled{
+    opacity: 0.1;
+}
+.yellow-Enabled{
+    opacity: 1;
+}
+.Other-Style-2{
+    position: absolute;
+    top: 20px;
+    left: 8px;
+}
+.green-Position{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: green;
+}
+.green-Disabled{
+    opacity: 0.1;
+}
+.green-Enabled{
+    opacity: 1;
+}
+.Other-Style-3{
+    position: absolute;
+    top: 5px;
+    left: 8px;
+}
+#p2-sygnalize{
+    position: absolute;
+    left: 70px;
+    top: 12px;
+    transform: rotate(90deg);
+}
+#p2-sygnalize-2{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    transform: rotate(270deg);
+}
+#p3-sygnalize{
+    position: absolute;
+    left: 70px;
+    top: 110px;
+    transform: rotate(90deg);
+}
+#p3-sygnalize-2{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    transform: rotate(90deg);
+}
+#p4-sygnalize{
+    position: absolute;
+    left: 20px;
+    top: 63px;
+}
+#p4-sygnalize-2{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transform: rotate(180deg);
+}
